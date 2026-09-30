@@ -6,12 +6,11 @@
   <meta name="description" content="Arthur Montandon — Business Administration student at Oral Roberts University, interested in finance, thoughtful operations, and better business decisions.">
   <meta name="theme-color" content="#f5f4ef">
   <meta property="og:title" content="Arthur Montandon | Business & Finance">
-  <meta property="og:description" content="A curious mind. A business mindset. Explore my experience, education, and a hands-on finance sample.">
+  <meta property="og:description" content="A curious mind. A business mindset. Explore my experience, education, and growing business foundation.">
   <meta property="og:type" content="website">
   <title>Arthur Montandon — Business & Finance</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -56,12 +55,16 @@
           <ul class="experience-list"><li><span aria-hidden="true">01</span><div><strong>Expense tracking</strong><p>Organized routine operating expenses and maintained clear internal records.</p></div></li><li><span aria-hidden="true">02</span><div><strong>Purchasing support</strong><p>Monitored supply needs and helped keep essential items available.</p></div></li><li><span aria-hidden="true">03</span><div><strong>Team coordination</strong><p>Communicated about purchases, spending, and daily operational needs.</p></div></li></ul>
           <div class="card-bottom"><span>May 2024 – January 2025</span><span>Finance · Administration</span></div>
         </article>
-        <article class="lab-card">
-          <div class="card-topline"><span class="tag">INTERACTIVE PORTFOLIO SAMPLE</span><span aria-hidden="true">↗</span></div>
-          <div class="lab-art" aria-hidden="true"><div class="art-label"><span>MONTHLY SPEND</span><span>USD</span></div><div class="art-row"><span>Budget</span><div><i style="width:81.8182%"></i></div><strong>$900</strong></div><div class="art-row actual"><span>Actual</span><div><i style="width:85.5455%"></i></div><strong>$941</strong></div><div class="art-insight"><span>+$41</span><small>over budget</small><svg viewBox="0 0 32 32"><path d="M6 24 24 6M8 6h16v16"/></svg></div></div>
-          <h3>Small numbers.<br> A clearer picture.</h3><p class="card-description">A simple budget-vs.-actual lab. Change the expenses and see how individual decisions affect the total.</p>
-          <p class="sample-label">Illustrative exercise · Fictional data</p>
-          <button type="button" class="text-button" id="open-lab">Explore the finance lab <span aria-hidden="true">↗</span></button>
+        <article class="lab-card foundation-card">
+          <div class="card-topline"><span class="tag">BUSINESS FOUNDATION</span><span aria-hidden="true">✳</span></div>
+          <div class="foundation-grid">
+            <div class="foundation-item"><span>01</span><div><strong>Classroom</strong><p>Accounting · Economics · Business ethics</p></div></div>
+            <div class="foundation-item"><span>02</span><div><strong>Experience</strong><p>Expense records · Purchasing · Team coordination</p></div></div>
+            <div class="foundation-item"><span>03</span><div><strong>Tools</strong><p>Microsoft Office · Digital research · Responsible AI</p></div></div>
+          </div>
+          <h3>Learning broadly.<br>Building practically.</h3><p class="card-description">I’m developing a versatile business foundation by connecting what I learn at ORU with the responsibilities I handled at ClinNova.</p>
+          <p class="sample-label">Finance · Operations · Technology</p>
+          <a class="text-button" href="#about">See my education and skills <span aria-hidden="true">↓</span></a>
         </article>
       </div>
     </section>
@@ -74,15 +77,5 @@
 
   <footer class="site-footer wrap"><a class="footer-brand" href="#home">Arthur Montandon<span aria-hidden="true">●</span></a><span>Business-minded. Always learning.</span><a href="#home">Back to top <span aria-hidden="true">↑</span></a></footer>
 
-  <dialog id="finance-lab" aria-labelledby="lab-title" aria-describedby="lab-description">
-    <div class="modal-header"><span class="eyebrow">A LITTLE FINANCIAL PERSPECTIVE</span><button type="button" class="icon-button" id="close-lab" aria-label="Close finance lab">✕</button></div>
-    <h2 id="lab-title">The expense <em>lab.</em></h2><p id="lab-description">A fictional monthly budget for a small business. Edit actual spending to explore the effect on the total. All amounts are in USD.</p>
-    <div class="lab-table" role="group" aria-label="Monthly budget and actual expenses"><div class="lab-table-head"><span>Expense</span><span>Budget</span><span>Actual ($)</span></div><div id="expense-inputs"></div></div>
-    <p id="lab-error" class="lab-error" role="alert" hidden></p>
-    <div class="lab-result" aria-live="polite" aria-atomic="true"><div><span>Total actual</span><strong id="actual-total">$941.00</strong></div><div><span id="variance-label">Over budget</span><strong id="variance-total">$41.00</strong></div><p id="lab-insight">Spending is 4.6% above the $900.00 budget.</p></div>
-    <details class="lab-explanation"><summary>How to read the result</summary><p>Expense variance = actual spending − budget. A positive result means spending is over budget; a negative result means spending is under budget. A lower cost alone does not tell you whether a business decision was good—consider quality and business needs too.</p></details>
-    <div class="lab-actions"><button id="reset-lab" type="button" class="button secondary">Reset example</button><button id="download-lab" type="button" class="button primary">Download CSV <span aria-hidden="true">↓</span></button></div>
-    <p class="lab-note">This is a sample exercise, not ClinNova’s financial information. Changes stay on this page.</p>
-  </dialog>
 </body>
 </html>
